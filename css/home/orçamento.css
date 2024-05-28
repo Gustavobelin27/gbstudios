@@ -1,0 +1,39 @@
+.orçamento-bg {
+    background-color: var(--cor-11);
+    box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+
+.orçamento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.orçamento-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.orçamento-conteudo {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.orçamento-conteudo > span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.orçamento-conteudo h2 {
+    margin-bottom: 32px;
+}
+
+.orçamento-conteudo > p {
+    margin-bottom: 20px;
+}
+
+.orçamento a {
+    margin-bottom: 80px;
+}

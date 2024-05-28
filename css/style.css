@@ -1,0 +1,36 @@
+@import './global/global.css';
+@import './utilidades/tipografia.css';
+@import './utilidades/cores.css';
+
+@import './global/header.css';
+@import './global/footer.css';
+
+/* Utilidades*/
+@import './utilidades/componentes.css';
+@import './utilidades/formulario.css';
+@import './utilidades/escalas.css';
+
+/* home*/
+@import './home/introducao.css';
+@import './home/orçamento.css';
+@import './home/depoimento.css';
+
+/* Modelos*/
+@import './modelos/modelos-lista.css';
+@import './Modelos/estatuas.css';
+@import './Modelos/plano.css';
+
+/* Planos mensais*/
+@import './Planos/planos.css';
+@import './Planos/vantagens.css';
+@import './Planos/perguntas.css';
+
+/*Contato*/
+@import './contato/contato.css';
+@import './contato/lojas.css';
+
+/*termos*/
+@import './termos/termos.css';
+
+/*Estatuas*/
+@import './venom/venom.css';

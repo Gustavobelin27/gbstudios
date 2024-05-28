@@ -1,0 +1,39 @@
+.modelos-lista {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.modelos-lista h2 {
+    margin-bottom: 40px;
+}
+
+.modelos-lista a {
+    display: block;
+}
+
+.modelos-lista li {
+    flex: 1;
+    min-width: 280px;
+}
+
+.modelos-lista ul {
+    display: flex;
+    gap: 40px;
+    padding: 0 20px 20px 20px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+
+
+@media (max-width: 800px) {
+    .modelos-lista {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .modelos-lista ul {
+        gap: 20px;
+    }
+}
